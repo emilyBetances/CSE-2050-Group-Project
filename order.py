@@ -1,4 +1,3 @@
-from store import Store 
 from product import Product
 from customer import Customer
 
@@ -7,7 +6,7 @@ class Order:
     def __init__(self, order_id:str, customer:Customer, items:list):
         self.order_id = order_id
         self.customer = customer 
-        self.items = list.copy()
+        self.items = list(items)
         self.status = "PENDING"
 
     def get_id(self):

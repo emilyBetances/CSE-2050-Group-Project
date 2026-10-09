@@ -4,7 +4,7 @@ class Stack:
     def __init__(self):
         self.items=LinkedList()
     def push(self,item):
-        self.item.add_first(item)
+        self.items.add_first(item)
 
     def pop(self):
         if self.is_empty():

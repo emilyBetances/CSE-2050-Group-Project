@@ -1,0 +1,20 @@
+LinkedList.add_first
+    Worst case is O(1) due to a single unit being added to the list
+LinkedList.add_last
+    Worst case is O(1) same as first but just added to the last position
+LinkedList.remove_first
+    Worst case is O(1) it only removes a single unit and doesnt search
+Stack.push
+    Worst case is O(1) because it adds to the top unless given index to search and insert in that specified index
+Stack.pop
+    Worst case is O(1) since it removes from the top
+OrderQueue.enqueue
+    Worst case is O(1) because it adds to the top of the tail
+OrderQueue.dequeue
+    Worst case is O(1) because it removes from the head
+Store.find_product
+    Worst case is O(n) since it searches through the products
+Store.find_customer
+    Worst case is O(n) since it searches through the customers
+Store.find_order
+    Worst case is O(n) since it searches through the orders

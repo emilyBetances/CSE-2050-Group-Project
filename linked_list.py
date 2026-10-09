@@ -4,7 +4,7 @@ class LinkedList:
     def __init__(self):
         self.head = None 
         self.tail = None
-        self.size = 0 
+        self._size = 0 
 
     def add_first(self,item):
         new_node = Node(item) 
@@ -14,9 +14,9 @@ class LinkedList:
         else:
             new_node.next = self.head
             self.head = new_node
-        self.size += 1
+        self._size += 1
 
-    def add_last(self,item):
+    def add_last(self, item):
         new_node = Node(item)
 
         if self.is_empty():
